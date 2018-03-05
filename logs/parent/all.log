@@ -1,0 +1,72 @@
+[2018-03-05T12:44:07,483+07:00] DEBUG 1130 --- [background-preinit] org.jboss.logging                        : Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-03-05T12:44:07,490+07:00]  INFO 1130 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.6.Final
+[2018-03-05T12:44:07,527+07:00] DEBUG 1130 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-05T12:44:08,411+07:00] DEBUG 1130 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-05T12:44:08,429+07:00] DEBUG 1130 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-05T12:44:08,434+07:00] DEBUG 1130 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2018-03-05T12:44:08,435+07:00] DEBUG 1130 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2018-03-05T12:44:08,438+07:00] DEBUG 1130 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy44
+[2018-03-05T12:44:08,441+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2018-03-05T12:44:08,443+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+[2018-03-05T12:44:08,445+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+[2018-03-05T12:44:08,445+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2018-03-05T12:44:08,445+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+[2018-03-05T12:44:08,909+07:00]  INFO 1130 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-03-05T12:44:08,911+07:00]  INFO 1130 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+[2018-03-05T12:44:09,058+07:00]  INFO 1130 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/cas-authentication]      : Initializing Spring embedded WebApplicationContext
+[2018-03-05T12:44:10,149+07:00] DEBUG 1130 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-05T12:44:10,156+07:00] DEBUG 1130 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-05T12:44:10,157+07:00] DEBUG 1130 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2018-03-05T12:44:10,158+07:00] DEBUG 1130 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2018-03-05T12:44:10,158+07:00] DEBUG 1130 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy44
+[2018-03-05T12:44:10,158+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2018-03-05T12:44:10,159+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+[2018-03-05T12:44:10,160+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+[2018-03-05T12:44:10,160+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2018-03-05T12:44:10,161+07:00] DEBUG 1130 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+[2018-03-05T12:44:11,067+07:00]  INFO 1130 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+[2018-03-05T12:44:11,085+07:00]  INFO 1130 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+[2018-03-05T12:44:11,114+07:00]  INFO 1130 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-03-05T12:44:20,811+07:00]  INFO 1130 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/cas-authentication]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-03-05T12:44:21,046+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.session.SingleSignOutHandler     : Recording session for token ST-461-t3hSeNJ7dvxZZ5Bytbb2-cas01.example.org
+[2018-03-05T12:44:21,047+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] c.c.s.HashMapBackedSessionMappingStorage : Attempting to remove Session=[7EFED7CF238E2D57B8BE2ABE041215C8]
+[2018-03-05T12:44:21,047+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] c.c.s.HashMapBackedSessionMappingStorage : No mapping for session found.  Ignoring.
+[2018-03-05T12:44:21,048+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.session.SingleSignOutHandler     : Recording session for token ST-461-t3hSeNJ7dvxZZ5Bytbb2-cas01.example.org
+[2018-03-05T12:44:21,048+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] c.c.s.HashMapBackedSessionMappingStorage : Attempting to remove Session=[7EFED7CF238E2D57B8BE2ABE041215C8]
+[2018-03-05T12:44:21,048+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] c.c.s.HashMapBackedSessionMappingStorage : Found mapping for session.  Session Removed.
+[2018-03-05T12:44:21,050+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.v.Cas30ServiceTicketValidator    : Placing URL parameters in map.
+[2018-03-05T12:44:21,050+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.v.Cas30ServiceTicketValidator    : Calling template URL attribute map.
+[2018-03-05T12:44:21,050+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.v.Cas30ServiceTicketValidator    : Loading custom parameters from configuration.
+[2018-03-05T12:44:21,051+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.v.Cas30ServiceTicketValidator    : Constructing validation url: http://172.17.130.16:8080/cas/p3/serviceValidate?ticket=ST-461-t3hSeNJ7dvxZZ5Bytbb2-cas01.example.org&service=http%3A%2F%2Flocalhost%3A8080%2Fcas-authentication%2Flogin%2Fcas
+[2018-03-05T12:44:21,051+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.v.Cas30ServiceTicketValidator    : Retrieving response from server.
+[2018-03-05T12:44:21,217+07:00] DEBUG 1130 --- [http-nio-8080-exec-2] o.j.c.c.v.Cas30ServiceTicketValidator    : Server response: 
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+	<!-- cas 3 validation success -->
+    <cas:authenticationSuccess>
+        <cas:user>user-dev-promotion</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+                   	
+                   	
+                    
+                        
+                        
+                            <cas:iamSession>&lt;?xml version=&#034;1.0&#034; encoding=&#034;UTF-8&#034; standalone=&#034;yes&#034;?&gt;&lt;fortSession&gt;&lt;modId&gt;54bb2dba-bd85-419a-9dfb-9d7e9a434065&lt;/modId&gt;&lt;sequenceId&gt;0&lt;/sequenceId&gt;&lt;user&gt;&lt;modId&gt;c1ae7f62-fdf3-4ec7-ab7f-5c45bae6526e&lt;/modId&gt;&lt;sequenceId&gt;0&lt;/sequenceId&gt;&lt;userId&gt;user-dev-promotion&lt;/userId&gt;&lt;name&gt;user-dev-promotion&lt;/name&gt;&lt;internalId&gt;8346620a-a4e8-4761-b21d-f7775bff7997&lt;/internalId&gt;&lt;ou&gt;dev0&lt;/ou&gt;&lt;sn&gt;user-dev-promotion&lt;/sn&gt;&lt;cn&gt;user-dev-promotion&lt;/cn&gt;&lt;dn&gt;uid=user-dev-promotion,ou=People,dc=openldap,dc=org&lt;/dn&gt;&lt;address/&gt;&lt;props&gt;&lt;modId&gt;b2ac706d-6913-44e0-83f3-cd87db717e92&lt;/modId&gt;&lt;sequenceId&gt;0&lt;/sequenceId&gt;&lt;entry&gt;&lt;key&gt;init&lt;/key&gt;&lt;value&gt;&lt;/value&gt;&lt;/entry&gt;&lt;/props&gt;&lt;locked&gt;false&lt;/locked&gt;&lt;reset&gt;false&lt;/reset&gt;&lt;system&gt;false&lt;/system&gt;&lt;timeout&gt;0&lt;/timeout&gt;&lt;roles&gt;&lt;modId&gt;0676d5dd-0102-48bf-b2a2-d123f9dbafa7&lt;/modId&gt;&lt;sequenceId&gt;0&lt;/sequenceId&gt;&lt;name&gt;ROLE_PRM_ADMIN&lt;/name&gt;&lt;userId&gt;user-dev-promotion&lt;/userId&gt;&lt;parents&gt;FUNCTION_X-PRM_ALL_READ&lt;/parents&gt;&lt;parents&gt;FUNCTION_X-PRM_PRA_READ&lt;/parents&gt;&lt;parents&gt;FUNCTION_X-PRM_FNC_WRITE&lt;/parents&gt;&lt;parents&gt;FUNCTION_X-PRM_PRA_WRITE&lt;/parents&gt;&lt;parents&gt;FUNCTION_X-PRM_PRM_WRITE&lt;/parents&gt;&lt;timeout&gt;0&lt;/timeout&gt;&lt;/roles&gt;&lt;/user&gt;&lt;isAuthenticated&gt;true&lt;/isAuthenticated&gt;&lt;sessionId&gt;fb6c0994-0ab9-4d7a-8d1c-f8e0cbed4316&lt;/sessionId&gt;&lt;lastAccess&gt;1520227189691&lt;/lastAccess&gt;&lt;timeout&gt;0&lt;/timeout&gt;&lt;errorId&gt;0&lt;/errorId&gt;&lt;expirationSeconds&gt;0&lt;/expirationSeconds&gt;&lt;graceLogins&gt;0&lt;/graceLogins&gt;&lt;/fortSession&gt;</cas:iamSession>
+                        
+                        
+                        
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+

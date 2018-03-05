@@ -1,0 +1,4 @@
+[2018-03-05T12:44:06,842+07:00]  INFO 1130 --- [main] com.cas.parent.ParentApplication         : Starting ParentApplication on khans-MacBook-Pro.local with PID 1130 (/Users/khan/codicon/parent/target/classes started by khan in /Users/khan/codicon/parent)
+[2018-03-05T12:44:06,846+07:00] DEBUG 1130 --- [main] com.cas.parent.ParentApplication         : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+[2018-03-05T12:44:06,846+07:00]  INFO 1130 --- [main] com.cas.parent.ParentApplication         : The following profiles are active: dev
+[2018-03-05T12:44:11,159+07:00]  INFO 1130 --- [main] com.cas.parent.ParentApplication         : Started ParentApplication in 5.323 seconds (JVM running for 6.323)
